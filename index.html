@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中医九大体质测试</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>中医九大体质测试</h1>
+    <p>通过逐题回答问题，了解您的体质类型！</p >
+  </header>
+
+  <main>
+    <form id="quizForm">
+      <!-- 第一页问题 -->
+      <div class="question-page" id="page-1">
+        <h2>问题 1</h2>
+        <p>您是否常常手脚冰凉，尤其是天气较冷时？</p >
+        <label><input type="radio" name="q1" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q1" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q1" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q1" value="阳虚质"> 总是</label>
+      </div>
+
+      <!-- 第二页问题 -->
+      <div class="question-page" id="page-2" style="display: none;">
+        <h2>问题 2</h2>
+        <p>您是否容易感到畏寒，或喜欢穿得比别人多？</p >
+        <label><input type="radio" name="q2" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q2" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q2" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q2" value="阳虚质"> 总是</label>
+      </div>
+  <p>3. 您是否喜欢喝热茶，而不是冷饮？</p >
+        <label><input type="radio" name="q3" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>4. 您是否容易出现乏力、嗜睡的情况？</p >
+        <label><input type="radio" name="q4" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q4" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q4" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q4" value="阳虚质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>5. 您是否容易尿频，或排尿时感到冷？</p >
+        <label><input type="radio" name="q5" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q5" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q5" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q5" value="阳虚质"> 总是</label>
+      </div>
+      <h2>湿热质</h2>
+      <div class="question">
+        <p>6. 您是否容易长痘、口臭或身体有异味？</p >
+        <label><input type="radio" name="q6" value="湿热质"> 从不</label>
+        <label><input type="radio" name="q6" value="湿热质"> 偶尔</label>
+        <label><input type="radio" name="q6" value="湿热质"> 经常</label>
+        <label><input type="radio" name="q6" value="湿热质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>7. 您是否常感到口干、口苦或咽喉疼痛？</p >
+        <label><input type="radio" name="q7" value="湿热质"> 从不</label>
+        <label><input type="radio" name="q7" value="湿热质"> 偶尔</label>
+        <label><input type="radio" name="q7" value="湿热质"> 经常</label>
+        <label><input type="radio" name="q7" value="湿热质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>8. 您是否容易因为吃辛辣食物而感到身体不适？</p >
+        <label><input type="radio" name="q8" value="湿热质"> 从不</label>
+        <label><input type="radio" name="q8" value="湿热质"> 偶尔</label>
+        <label><input type="radio" name="q8" value="湿热质"> 经常</label>
+        <label><input type="radio" name="q8" value="湿热质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>9. 您是否觉得头皮爱出油或头发油腻？</p >
+        <label><input type="radio" name="q9" value="湿热质"> 从不</label>
+        <label><input type="radio" name="q9" value="湿热质"> 偶尔</label>
+        <label><input type="radio" name="q9" value="湿热质"> 经常</label>
+        <label><input type="radio" name="q9" value="湿热质"> 总是</label>
+      </div>
+      <div class="question">
+        <p>10. 您是否容易口渴，且喜欢喝凉的饮料？</p >
+        <label><input type="radio" name="q10" value="湿热质"> 从不</label>
+        <label><input type="radio" name="q10" value="湿热质"> 偶尔</label>
+        <label><input type="radio" name="q10" value="湿热质"> 经常</label>
+        <label><input type="radio" name="q10" value="湿热质"> 总是</label>
+      </divclass="question">
+
+      <!-- 最后一页问题 -->
+      <div class="question-page" id="page-3" style="display: none;">
+        <h2>问题 3</h2>
+        <p>您是否喜欢喝热茶，而不是冷饮？</p >
+        <label><input type="radio" name="q3" value="阳虚质"> 从不</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 偶尔</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 经常</label>
+        <label><input type="radio" name="q3" value="阳虚质"> 总是</label>
+      </div>
+
+      <!-- 导航按钮 -->
+      <div id="navigation">
+        <button type="button" id="prevBtn" disabled>上一题</button>
+        <button type="button" id="nextBtn">下一题</button>
+        <button type="submit" id="submitBtn" style="display: none;">提交测试</button>
+      </div>
+    </form>
+
+    <!-- 测试结果 -->
+    <section id="resultSection" style="display: none;">
+      <h2>测试结果</h2>
+      <div id="resultContent"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 中医九大体质科普测试</p >
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
